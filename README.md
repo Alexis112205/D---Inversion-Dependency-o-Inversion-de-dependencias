@@ -3,7 +3,7 @@
 
 ---
 
-### 👥 Integrantes (Grupo 5 - Fila 6)
+### Integrantes (Grupo 5 - Fila 6)
 * **Jhon Alexis Correa**
 * **Deiby Alexander Velasco**
 * **Erik Johan Enriquez Vera**
@@ -14,7 +14,7 @@
 
 ---
 
-## 📖 1. ¿Qué es el Principio de Inversión de Dependencias (DIP)?
+## 1. ¿Qué es el Principio de Inversión de Dependencias (DIP)?
 
 El **Principio de Inversión de Dependencias** (*Dependency Inversion Principle* o **DIP**) es el quinto y último de los principios **SOLID**, formulado por **Robert C. Martin ("Uncle Bob")**. Su objetivo principal es reducir el acoplamiento entre los módulos de software para lograr sistemas más mantenibles, flexibles, escalables y testeables.
 
@@ -42,7 +42,7 @@ El **Principio de Inversión de Dependencias** (*Dependency Inversion Principle*
 
 ---
 
-## ⚖️ 2. DIP vs. DI (Inyección de Dependencias)
+## 2. DIP vs. DI (Inyección de Dependencias)
 
 Es muy común confundir estos dos términos:
 * **Principio de Inversión de Dependencias (DIP):** Es el **principio de diseño conceptual y arquitectónico**. Nos dice *qué regla seguir* ("depende de abstracciones, no de concreciones").
@@ -55,7 +55,7 @@ Es muy común confundir estos dos términos:
 
 ---
 
-## 📂 3. Estructura del Repositorio y Ejemplos Prácticos
+## 3. Estructura del Repositorio y Ejemplos Prácticos
 
 El repositorio contiene **3 ejemplos completos**, asignados a cada integrante del grupo, organizados en sus versiones **Sin DIP** (violando el principio) y **Con DIP** (solución desacoplada mediante interfaces e inyección):
 
@@ -104,7 +104,7 @@ El repositorio contiene **3 ejemplos completos**, asignados a cada integrante de
 
 ---
 
-## 💻 4. Explicación Detallada de los Ejemplos
+##  4. Explicación Detallada de los Ejemplos
 
 ### 🔹 Ejemplo 1: Servicio de Notificaciones (Jhon Alexis Correa)
 * **Problema (Sin DIP):** La clase de negocio `NotificadorService` instancia directamente `new EmailService()`. Si el negocio requiere notificar vía SMS o WhatsApp, es mandatorio abrir y alterar el código de `NotificadorService`, arriesgando errores.
@@ -149,7 +149,7 @@ java ejemplo3_persistencia.con_dip.Main
 
 ---
 
-## 🏆 6. Beneficios de Aplicar DIP
+##  6. Beneficios de Aplicar DIP
 
 1. **Bajo Acoplamiento:** Los módulos pueden evolucionar o ser reemplazados de forma independiente.
 2. **Facilidad de Pruebas Unitarias (Testing):** Permite inyectar *Mocks* o *Stubs* para probar la lógica de negocio sin depender de bases de datos reales o servicios externos.
