@@ -1,4 +1,3 @@
-package ejemplo1_notificaciones.con_dip;
 
 /**
  * Ejemplo 1 - Responsable: Jhon Alexis Correa

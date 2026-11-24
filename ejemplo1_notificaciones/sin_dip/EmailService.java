@@ -1,4 +1,3 @@
-package ejemplo1_notificaciones.sin_dip;
 
 /**
  * Módulo de bajo nivel concreto.

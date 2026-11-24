@@ -1,4 +1,3 @@
-package ejemplo2_pagos.con_dip;
 
 /**
  * Implementación concreta de pago con PayPal.

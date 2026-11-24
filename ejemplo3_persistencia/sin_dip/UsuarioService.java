@@ -1,4 +1,3 @@
-package ejemplo3_persistencia.sin_dip;
 
 /**
  * Módulo de alto nivel (Lógica de negocio).

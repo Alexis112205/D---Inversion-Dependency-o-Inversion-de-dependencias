@@ -1,4 +1,3 @@
-package ejemplo1_notificaciones.con_dip;
 
 /**
  * Abstracción (Interfaz)

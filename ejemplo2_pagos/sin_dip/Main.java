@@ -1,4 +1,3 @@
-package ejemplo2_pagos.sin_dip;
 
 /**
  * Ejemplo 2 - Responsable: Deiby Alexander Velasco

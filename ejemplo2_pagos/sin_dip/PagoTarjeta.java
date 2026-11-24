@@ -1,4 +1,3 @@
-package ejemplo2_pagos.sin_dip;
 
 /**
  * Módulo concreto de bajo nivel.

@@ -1,4 +1,3 @@
-package ejemplo1_notificaciones.con_dip;
 
 /**
  * Módulo de alto nivel desacoplado.

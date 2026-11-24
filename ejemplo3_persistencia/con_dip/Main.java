@@ -1,4 +1,3 @@
-package ejemplo3_persistencia.con_dip;
 
 /**
  * Ejemplo 3 - Responsable: Erik Johan Enriquez Vera

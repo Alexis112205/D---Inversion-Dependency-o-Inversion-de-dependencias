@@ -1,4 +1,3 @@
-package ejemplo3_persistencia.sin_dip;
 
 /**
  * Entidad de dominio.

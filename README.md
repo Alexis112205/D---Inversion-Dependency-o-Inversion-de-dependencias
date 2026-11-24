@@ -129,22 +129,25 @@ El repositorio contiene **3 ejemplos completos**, asignados a cada integrante de
 
 ## 🚀 5. Cómo Compilar y Ejecutar
 
-Puedes abrir y ejecutar el proyecto en cualquier IDE (**VS Code**, **IntelliJ IDEA**, **Eclipse** o **NetBeans**) abriendo la carpeta raíz.
+Puedes abrir y ejecutar el proyecto en cualquier IDE (**VS Code**, **IntelliJ IDEA**, **Eclipse** o **NetBeans**) abriendo la carpeta del proyecto. En **VS Code**, simplemente abre cualquier archivo `Main.java` y presiona el botón **Run / Reproducir** arriba a la derecha.
 
 También puedes compilar y ejecutar directamente desde la terminal con el JDK de Java:
 
 ```bash
 # Compilar y ejecutar Ejemplo 1 (Con DIP)
-javac ejemplo1_notificaciones/con_dip/*.java
-java ejemplo1_notificaciones.con_dip.Main
+cd ejemplo1_notificaciones/con_dip
+javac Main.java
+java Main
 
 # Compilar y ejecutar Ejemplo 2 (Con DIP)
-javac ejemplo2_pagos/con_dip/*.java
-java ejemplo2_pagos.con_dip.Main
+cd ejemplo2_pagos/con_dip
+javac Main.java
+java Main
 
 # Compilar y ejecutar Ejemplo 3 (Con DIP)
-javac ejemplo3_persistencia/con_dip/*.java
-java ejemplo3_persistencia.con_dip.Main
+cd ejemplo3_persistencia/con_dip
+javac Main.java
+java Main
 ```
 
 ---

@@ -1,4 +1,3 @@
-package ejemplo3_persistencia.con_dip;
 
 /**
  * Implementación concreta 1: Base de datos Relacional MySQL.

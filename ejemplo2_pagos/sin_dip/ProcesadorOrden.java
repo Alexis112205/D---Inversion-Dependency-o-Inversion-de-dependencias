@@ -1,4 +1,3 @@
-package ejemplo2_pagos.sin_dip;
 
 /**
  * Módulo de alto nivel que gestiona pedidos de la tienda.

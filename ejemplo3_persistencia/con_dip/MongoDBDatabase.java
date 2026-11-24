@@ -1,4 +1,3 @@
-package ejemplo3_persistencia.con_dip;
 
 /**
  * Implementación concreta 2: Base de datos NoSQL MongoDB.
